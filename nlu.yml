@@ -1,0 +1,411 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hihi
+    - hi
+    - salaam
+    - Hiya
+    - Hey
+    - hi there
+    - start
+    - heyyyy
+    - hiiiiiii
+    - Hi
+    - salam
+    - Salam
+    - [helina](name)
+    - Hey there
+    - Salamat
+    - [alam](name)
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yo
+    - ok
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - [Aliza](name)
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - My name is saroj
+    - [dipen](name)
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+    - am I talking to a human?
+- intent: user_name
+  examples: |
+    - my name is [saroj](name)
+    - I am [saroj](name)
+    - [saroj](name)
+    - [Saroj](name)
+    - hi my name is [saroj](name)
+    - Hi my name is [saroj](name)
+    - Hello my name is [saroj](name)
+    - My name is[ Manish](name)
+    - I am [Manish](name)
+    - my name is [kaji](name)
+    - my name is alex
+    - my name is [yubraj](name)
+    - my name is [manish](name)
+    - my name is [kabindra](name)
+    - my name is [kabi](name)
+    - my name is [bishnu](name)
+    - [kaley](name)
+    - my name is [sam](name)
+    - name is [saroj](name)
+    - My name [saroj](name)
+    - Hi. My name is [Saroj](name)
+    - [Mudessar](name)
+    - my name is [yak](name)
+    - my name is [Sujan](name)
+    - [Sujan](name)
+    - [mudessar](name)
+    - my name is [sujan](name)
+    - my name is [mudessar](name)
+    - my name is [aditya](name)
+    - my name is [xii](name)
+    - ubi
+    - my name is [saorj](name)
+    - my name is [yogesh](name)
+    - [yubraj](name)
+    - [bishnu](name)
+    - my name is [Karen](name)
+    - [helen](name)
+    - my name is [Haribahadur](name)
+    - [jasbinder](name)
+    - [yogesh](name)
+    - [manish](name)
+    - ales
+    - [ladobahadur](name)
+    - [haribahadur](name)
+    - [nasir](name)
+    - [ADITYA](name)
+    - [yubi](name)
+    - [iyan](name)
+    - [prakash](name)
+    - my name is [karan](name)
+    - my name is [akash](name)
+    - [akash](name)
+    - [yoges](name)
+    - message
+    - [aditya](name)
+    - [yogen](name)
+    - [isatu](name)
+    - [karen](name)
+    - my name is [option](name)
+    - [jitendra](name)
+    - [Mohamed](name)
+    - [mohamed](name)
+    - [Adam](name)
+    - [Zikri](name)
+    - my name is [intelliX](name)
+    - [susmita](name)
+    - [rofi](name)
+    - [yogis](name)
+    - [keren](name)
+    - [abdul](name)
+    - [himal](name)
+    - name is [saorj](name)
+    - my name is [Ahmed](name)
+    - my name is [Intel](name)
+    - my name is [abdul](name)
+    - my name is [adbul](name)
+    - my name is [rajesh](name)
+    - rupesh
+    - [ramesh](name)
+    - [Ramesh](name)
+    - [jackson](name)
+    - My name is [Ramesh](name)
+    - [iqaball](name)
+    - [iqbal](name)
+    - [hari](name)
+    - [sujan](name)
+    - [muddesar](name)
+    - my name is [aliza](name)
+    - my name is [asish](name)
+    - [harry](name)
+    - my name is [alisa](name)
+    - my name is [ahmed](name)
+    - my name is [harry](name)
+    - my name is [reetika](name)
+    - [alex](name)
+    - my name is [Mohamed](name)
+    - my name is [ramesh](name)
+    - [alez](name)
+    - my name is [Ritika](name)
+    - my name is [yusuf](name)
+    - [ahmed](name)
+    - my name is [Biden](name)
+    - jupiter
+    - my name is [jupiter](name)
+    - my name is [biden](name)
+    - [aftab](name)
+    - peter
+    - salman
+    - Nitin
+    - my name is [spaceX](name)
+    - [new user](name)
+    - [Ahmad](name)
+    - Aidan
+    - [Firash](name)
+    - [Umar](name)
+    - [Yusuf](name)
+    - [Harraz](name)
+    - [Nor](name)
+    - [Aishah](name)
+    - [Sophia](name)
+    - [Maryam](name)
+    - [Hannah](name)
+    - my name is [salman](name)
+    - my name is [tofik](name)
+    - [nushrat](name)
+    - [Amir](name)
+    - [namasir](name)
+    - my name is [katerina](name)
+    - [tofik](name)
+    - [harun](name)
+    - my name is [kali](name)
+    - my name is [rakesh](name)
+    - my name [saroj](name)
+    - [bipul](name)
+    - my name is [raksha](name)
+    - my name is [Rebeca](name)
+    - my name is [borat](name)
+    - my name [borat](name)
+    - [prish](name)
+    - [spiderman](name)
+    - [pankaj](name)
+    - [spacey](name)
+    - spaceX
+    - my name is [SpaceX](name)
+    - [ujwaal](name)
+    - my name is [prakash](name)
+    - my name is [Pokemon](name)
+    - my name is [Jasmine](name)
+    - my name is [Rabina](name)
+    - [mustak](name)
+    - [mustafa](name)
+    - my name is [judith](name)
+    - [sacar](name)
+    - [Irfan](name)
+    - [himak](name)
+    - my name is [ram](name)
+    - [umesh](name)
+    - my name is [umesh](name)
+    - [pawan](name)
+- intent: COVID-Update
+  examples: |
+    - Can I get update on COVID-19
+    - can you give me a Covid-19 update
+    - COVID-19 Updates
+    - my name is [saroj](name) i need update on covid
+- intent: COVID-Mal
+  examples: |
+    - Can I get update on Covid-19 in Malaysia?
+    - update on malaysia
+    - COVID Malaysia Update
+- intent: yesthankyou
+  examples: |
+    - Yes. Thank you
+    - Yes that helped
+    - yes.Thank you
+    - ok thank you
+    - thank you
+    - yes thank you
+- intent: moreinformation
+  examples: |
+    - No. Need more Information
+    - Need more Information
+- intent: COVID-World
+  examples: |
+    - Worldwide Update
+- intent: RulesMal
+  examples: |
+    - COVID-19 rules in Malaysia
+    - What are covid19 rules in Malaysia?
+    - What are restrictions on Malaysia during COVID19
+    - COVID-19 RULES IN MALAYSIA
+- intent: facecovering
+  examples: |
+    - what are rules on facecovering in Malaysia?
+    - do i need to wear a mask?
+    - is mask necessary in Malaysia?
+    - Facecovering
+- intent: test
+  examples: |
+    - do i need a test?
+    - do i need a pcr test?
+    - is test needed to travel to Malaysia?
+    - Test
+- intent: overstay
+  examples: |
+    - Can i overstay in Malaysia?
+    - can tourists overstay in Malaysia during covid?
+    - is there a fine for overstaying?
+    - Overstay
+- intent: Quarantine
+  examples: |
+    - What are quarantine rules in Malaysia?
+    - How long is the quarantine in malaysia?
+    - is quarantine necessary?
+    - Quarantine
+- intent: lockdown
+  examples: |
+    - is there lockdown in Malaysia?
+    - are the lockdown restrictions?
+    - can you update me on lockdown ?
+    - Lockdown
+- intent: nlu_fallback
+  examples: |
+    - [putimayalu](name)
+- intent: Transport
+  examples: |
+    - Transport Restriction in Malaysia
+    - Can we travel between different states of Malaysia
+    - What will be my travel restrictions in Malaysia
+    - Give me information about public transport in Malaysia
+    - Transport
+- intent: accomodation
+  examples: |
+    - Are hotels open for check in
+    - Can I get a hotel in Malaysia
+    - Are there restrictions for staying in a hotel in Malaysia
+    - Will I face any difficulty getting accommodation in Malaysia.
+    - Accomodation
+- intent: food
+  examples: |
+    - Can I order food for delivery?
+    - Are restaurants delivering food
+    - Is food delivery available during covid 19
+    - Are restaurants delivering food at home
+    - Food
+- intent: markets
+  examples: |
+    - Are Shopping malls open in Malaysia
+    - Is visiting to shopping malls allowed
+    - Are markets closed in Malaysia
+    - Are markets open in Malaysia
+    - Market
+- intent: money
+  examples: |
+    - From where can I get my currency exchanged in Malaysia
+    - Can I get my currency exchanged in Malaysia
+    - Where can I get to know the currency exchange rates in Malaysia
+    - What is the currency rate in Malaysia
+    - Money
+- intent: Travel info
+  examples: |
+    - Can i get information on travelling to Malaysia
+    - what are information on travelling to malaysia
+    - Can I get travel information on Malaysia
+    - TRAVEL INFORMATION
+- intent: precautions
+  examples: |
+    - During traveling to Malaysia what precautions should I take
+    - How should I keep myself safe from the virus during traveling
+    - What are traveling precautions in Malaysia
+    - Is it safe to travel domestic by air?
+    - Precautions
+- intent: pet
+  examples: |
+    - Can I take my pet to Malaysia
+    - Can I take my cat to Malaysia
+    - Are pets allowed in Malaysia
+    - Will I need a covid test for my pet
+    - information on bringing pets
+- intent: otherinformation
+  examples: |
+    - more information on malaysia
+    - can i get more detail information on malaysia
+    - give me other details on malaysia
+    - what are other details on Malaysia
+    - OTHER
+- intent: education
+  examples: |
+    - are Educational Institutes in Malaysia Closed
+    - What is the current situation of Educational Institutes
+    - Are Schools closed in Malaysia
+    - Are Colleges Closed in Malaysia.
+    - Education
+- intent: application
+  examples: |
+    - Is there any official Application to guide travelers during covid 19
+    - Application for information on Corona Virus in Malaysia
+    - Where can I get information regarding on Corona virus while travelling
+    - Malaysia Corona Virus application.
+- intent: treatment
+  examples: |
+    - What treatments for COVID 19 are available in Malaysia
+    - How are people infected from corona virus treated in Malaysia
+    - Are there any home tests for Covid 19 in Malaysia ?
+    - Can people be tested for the corona virus while at home in Malaysia
+    - Treatment in Malaysia

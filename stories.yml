@@ -1,0 +1,1474 @@
+version: "2.0"
+stories:
+- story: Story from Conversation ID e1425bf85bf6420097762f5817064d68
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: yubraj
+  - intent: user_name
+    entities:
+    - name: yubraj
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a115c27df7164029b9d95317c85ff0b4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mudessar
+  - intent: user_name
+    entities:
+    - name: mudessar
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a66de4db9d414ee4aa796d40c2c173b7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a66de4db9d414ee4aa796d40c2c173b7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 75ef9b8c7705403aa8397be28a129e36
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 5d52ab44b8c444919c4a3ac9554e25ef
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: jitendra
+  - intent: user_name
+    entities:
+    - name: jitendra
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 23dc08c24db94f64b3dfef133bbb6df1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: aditya
+  - intent: user_name
+    entities:
+    - name: aditya
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 94575cf122ba46b495135d80ca93a458
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 6e8c775ea10741c9ae7a4a8acb7b34c6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 5ed15e1648a54e76a1e39c196fdb12d0
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID c0c9236edfbd4227816805db62eebd01
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: aditya
+  - intent: user_name
+    entities:
+    - name: aditya
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 218bc48431e243c1a20c182b73c76ef1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: yogen
+  - intent: user_name
+    entities:
+    - name: yogen
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 9a03bf395094453fa96edf6d739beb51
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: helen
+  - intent: user_name
+    entities:
+    - name: helen
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID e0b5fb030c9c4af9af635264757609ff
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: akash
+  - intent: user_name
+    entities:
+    - name: akash
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 7c0415b3365e47b4863100bd8376212e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: karan
+  - intent: user_name
+    entities:
+    - name: karan
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 74a5c8665c3943c4a9c02d6745fd223a
+  steps:
+  - action: utter_greet
+  - intent: greet
+  - slot_was_set:
+    - name: manish
+  - intent: user_name
+    entities:
+    - name: manish
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 72efc4abde3c462e963ded34d5efaf6c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ADITYA
+  - intent: user_name
+    entities:
+    - name: ADITYA
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 25e2834234764e36bd68a4b5d0bd03b3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: haribahadur
+  - intent: user_name
+    entities:
+    - name: haribahadur
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID d0ec86d6784b4ff8b8c435b6a27697b5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID aa6a4f72d2944f40ac9fa1271a1f27f4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: manish
+  - intent: user_name
+    entities:
+    - name: manish
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 9f5d46baed76476a9933ed1b789d199f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: haribahadur
+  - intent: user_name
+    entities:
+    - name: haribahadur
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 51a78e9c0411488484296c41ff534e0e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ladobahadur
+  - intent: user_name
+    entities:
+    - name: ladobahadur
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID e0f7d8ba59dc4cdba402c82e854af1a7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 3401e0b23a2c4c238847f5bb593379ab
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: manish
+  - intent: user_name
+    entities:
+    - name: manish
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a0e0abb960b241bf89fbaf0254c64e5b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Mohamed
+  - intent: user_name
+    entities:
+    - name: Mohamed
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a0e0abb960b241bf89fbaf0254c64e5b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Mohamed
+  - intent: user_name
+    entities:
+    - name: Mohamed
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 2532ce4d6fd64baea0823299a2c47554
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 570b6679c73e492bbed11046c678dc90
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Ritika
+  - intent: user_name
+    entities:
+    - name: Ritika
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 419c27cbb0b5470793ef967d21fdb122
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 46212f48041b4c31922c7fbf7a1956f6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID a0102d5dd14f449e83a8c2834e223901
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ramesh
+  - intent: user_name
+    entities:
+    - name: ramesh
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID eebdbe9e3d084faca81c1f679aae4349
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 8f1804afe71c467faf1075ed67568da7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: alisa
+  - intent: user_name
+    entities:
+    - name: alisa
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - action: utter_Feedback
+  - intent: yesthankyou
+  - action: utter_goodbye
+- story: Story from Conversation ID 3ccff81d145f40fb9219c6a61b7bd483
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID a431e092226c462cb7310655b1daa05b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: asish
+  - intent: user_name
+    entities:
+    - name: asish
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID faae06f8baac41f2a75dc1c992bf69c9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: aliza
+  - intent: user_name
+    entities:
+    - name: aliza
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID ba501ed64fe040728087d0cda472a9b2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 2cd2669bb3d04866a95f070d7005c57b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mudessar
+  - intent: user_name
+    entities:
+    - name: mudessar
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 36f07b22b2f14f69be9753bfe0cb6f16
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ramesh
+  - intent: user_name
+    entities:
+    - name: ramesh
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 342fead42a95405ea8d34567b6ef5535
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: hari
+  - intent: user_name
+    entities:
+    - name: hari
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: overstay
+  - action: utter_overstay
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 89aa6ee9210249e2b31be8a06d6adcc7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: facecovering
+  - action: utter_Facecovering
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 254c8c1770c84e66bb68f1d1adc9247b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: jackson
+  - intent: user_name
+    entities:
+    - name: jackson
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: overstay
+  - action: utter_overstay
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 39f66c10c7d8425d9fc5acd18a1d6086
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ramesh
+  - intent: user_name
+    entities:
+    - name: ramesh
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: overstay
+  - action: utter_overstay
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 2692f637a3af4327a55cf148907b82ea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: test
+  - action: utter_test
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 68e01a2c759d4cbd87bfa9168b82059c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: rajesh
+  - intent: user_name
+    entities:
+    - name: rajesh
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: test
+  - action: utter_test
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 38cd38e8578249108f708bc4bd370367
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: lockdown
+  - action: utter_lockdown
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID c523f484f5244842a37881d89b11d0ea
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: sujan
+  - intent: user_name
+    entities:
+    - name: sujan
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 7dcb4923e9e04d4fab0e976759c51a52
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 6e373ffc1d634973a25807b17780bafe
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: yogesh
+  - intent: user_name
+    entities:
+    - name: yogesh
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 7245a4992634437ebaec22a4229f4c0a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 81bd24b0e57b4c2494354b756ba56ce7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: Transport
+  - action: utter_Transport
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID be536154e9b8441e8a0b30d34bfe310e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: Transport
+  - action: utter_Transport
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 00aac1b783c84a4d9f8146e46aab61bd
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: rakesh
+  - intent: user_name
+    entities:
+    - name: rakesh
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: accomodation
+  - action: utter_Accomodation
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID e8668de6399849ec805da2a241c04c04
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ramesh
+  - intent: user_name
+    entities:
+    - name: ramesh
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: accomodation
+  - action: utter_Accomodation
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 0f066a33107545c8a65fd34d850d38f3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: kali
+  - intent: user_name
+    entities:
+    - name: kali
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: Transport
+  - action: utter_Transport
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 42bfcd16e8d44885ae97fbbfb234300f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: test
+  - action: utter_test
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 41c2b7f19ef74f86b21eeccc3724a82c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Amir
+  - intent: user_name
+    entities:
+    - name: Amir
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: accomodation
+  - action: utter_Accomodation
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID a9a57bb96feb465286453dd0ba7788f9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: judith
+  - intent: user_name
+    entities:
+    - name: judith
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: food
+  - action: utter_food
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 8c2a0fb4b96f42738703ffaacc8c1670
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mustak
+  - intent: user_name
+    entities:
+    - name: mustak
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: food
+  - action: utter_food
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID c6dbdc6d06a6411ab774cc49f1f1ccb7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Jasmine
+  - intent: user_name
+    entities:
+    - name: Jasmine
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: markets
+  - action: utter_markets
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID f03c2bb837184b268323595b15522c8c
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: prakash
+  - intent: user_name
+    entities:
+    - name: prakash
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: markets
+  - action: utter_markets
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID c408e9845562497a9e6110a9c60ff98b
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ujwaal
+  - intent: user_name
+    entities:
+    - name: ujwaal
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: money
+  - action: utter_money
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 8a73fb0f787740f08503e372bb957b6f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: bishnu
+  - intent: user_name
+    entities:
+    - name: bishnu
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: money
+  - action: utter_money
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 04ed57f27407449a9ba64f05b6137cb7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: alisa
+  - intent: user_name
+    entities:
+    - name: alisa
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: money
+  - action: utter_money
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 0631d9d07e8246b1a4ec21b75f816bdc
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: prakash
+  - intent: user_name
+    entities:
+    - name: prakash
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: Transport
+  - action: utter_Transport
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 91f3461b95bd440bbedf299e329c26aa
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mohamed
+  - intent: user_name
+    entities:
+    - name: mohamed
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: Transport
+  - action: utter_Transport
+  - intent: affirm
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID eabb8a109b6348d084759e316f151ee5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: manish
+  - intent: user_name
+    entities:
+    - name: manish
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: markets
+  - action: utter_markets
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 1b79a5f2bdba40efaf71e5e2ebf970f7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: prish
+  - intent: user_name
+    entities:
+    - name: prish
+  - action: utter_Give_usernames
+  - intent: Travel info
+  - action: utter_TravelInfo
+  - intent: food
+  - action: utter_food
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 33e7989f24f240428b99c8b736084918
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: precautions
+  - action: utter_precautions
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID fa91fb73535540bf80747cb072dc5775
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: precautions
+  - action: utter_precautions
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID dae6dba4c4b64e458fd11cd60cfe26b1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: pankaj
+  - intent: user_name
+    entities:
+    - name: pankaj
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: treatment
+  - action: utter_treatment
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 14bb7700ce224d4ea504077553560195
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: raksha
+  - intent: user_name
+    entities:
+    - name: raksha
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: education
+  - action: utter_education
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID baf6ed3059c148ac86415659297729c7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: bipul
+  - intent: user_name
+    entities:
+    - name: bipul
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: pet
+  - action: utter_pet
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 0c07d63752344b189cbc8f507b27b180
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: saroj
+  - intent: user_name
+    entities:
+    - name: saroj
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: precautions
+  - action: utter_precautions
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 78e3b62d9fd54687a92b2a9cd68dc4ce
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID c4e12a08b22f4630bee0923266e43a97
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: umesh
+  - intent: user_name
+    entities:
+    - name: umesh
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 78413d1549e64d5e8c3afbf7fce2097c
+  steps:
+  - action: utter_greet
+  - intent: greet
+  - slot_was_set:
+    - name: umesh
+  - intent: user_name
+    entities:
+    - name: umesh
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID e6962db3053d4818893e6ab9a001d811
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: ram
+  - intent: user_name
+    entities:
+    - name: ram
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 3c8172287826431fb860e000359228c0
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: himak
+  - intent: user_name
+    entities:
+    - name: himak
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: pet
+  - action: utter_pet
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 7fb6756f63e4423abb5ef4e3eb8876ff
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: iqbal
+  - intent: user_name
+    entities:
+    - name: iqbal
+  - action: utter_Give_usernames
+  - intent: RulesMal
+  - action: utter_COVID-19 Rules
+  - intent: Quarantine
+  - action: utter_Quarantine
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 6f5de963ef3946aab7c061d8a60e606e
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: iqbal
+  - intent: user_name
+    entities:
+    - name: iqbal
+  - action: utter_Give_usernames
+  - intent: otherinformation
+  - action: utter_OtherInformation
+  - intent: pet
+  - action: utter_pet
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID e182d02f7207433aa335d87d3f8b0f49
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mohammed
+  - intent: user_name
+    entities:
+    - name: mohammed
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID 8dbb5959b6db4e589d2ae3581f301a5f
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mustak
+  - intent: user_name
+    entities:
+    - name: mustak
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
+- story: Story from Conversation ID da6c7eb47c0c4ae99a30bb1a9d7bb266
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: Asish
+  - intent: user_name
+    entities:
+    - name: Asish
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-World
+  - action: utter_COVID_19 REST
+  - action: utter_did_that_help
+  - intent: moreinformation
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID 46493885de9a45fdb0e3cdeb8963b404
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_name
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: nlu_fallback
+  - action: utter_nothelp
+  - action: utter_goodbye
+- story: Story from Conversation ID f56a1cf6d0e642e3ba19c1c919d1d0e5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - slot_was_set:
+    - name: mustafa
+  - intent: user_name
+    entities:
+    - name: mustafa
+  - action: utter_Give_usernames
+  - intent: COVID-Update
+  - action: utter_TYPE
+  - intent: COVID-Mal
+  - action: utter_COVID-19 MAL
+  - action: utter_did_that_help
+  - intent: yesthankyou
+  - action: utter_Feedback
+  - action: utter_goodbye
